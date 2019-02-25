@@ -36,7 +36,7 @@ To better understand objects, you really just need to write more of them. The [o
 * Read the instructions found within the file carefully to finish the challenges. 
 * Complete each challenge presented before moving on to Arrays.
 
-### Arrays
+### Arrays  ### Done !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 The [arrays.js](assignments/arrays.js) assignment takes us through a large data set of used cars.  You have been asked to help a used car business with some customer requests based on their inventory.  Use for loops and arrays to solve their problems.
 
@@ -44,9 +44,9 @@ The [arrays.js](assignments/arrays.js) assignment takes us through a large data 
 * You are not permitted to use map, reduce, or filter to solve these problems.  Only use a basic for loop.
 * Complete each challenge presented before moving on to stretch.
 
-### Arrow Function Syntax
+### Arrow Function Syntax   ### Done !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-* [ ] Arrow Function Syntax - [Check out this awesome guide for ES6 arrow syntax](https://medium.freecodecamp.org/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26). You will see more and more arrow functions as you progress deeper into JavaScript. Use the [function-conversion.js](assignments/function-conversion.js) file as a helper challenge to showcase some of the differences between ES5 and ES6 syntax.  
+* [x] Arrow Function Syntax - [Check out this awesome guide for ES6 arrow syntax](https://medium.freecodecamp.org/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26). You will see more and more arrow functions as you progress deeper into JavaScript. Use the [function-conversion.js](assignments/function-conversion.js) file as a helper challenge to showcase some of the differences between ES5 and ES6 syntax.  
 
 ### Stretch
 
