@@ -30,10 +30,10 @@ const kennan = {
   "id": 2,
   "name": "Kennan",
   "email": "kdiben1@tinypic.com",
-  "gender": "M",
-  speak: function () {
-    return "Hello, my name is Kennan!";
-  }
+  "gender": "M"
+  // speak: function () {
+  //   return "Hello, my name is Kennan!";
+  // }
 }
 
 const keven = {
@@ -54,13 +54,12 @@ const antonietta = {
   "id": 5,
   "name": "Antonietta",
   "email": "adaine5@samsung.com",
-  "gender": "F",
-  multiplyNums: function (num1, num2) {
-    return num1 * num2;
-  }
+  "gender": "F"
+  // multiplyNums: function (num1, num2) {
+  //   return num1 * num2;
+  // }
 }
-// 4,gmartinson3@illinois.edu,Gannie,M
-// 5,adaine5@samsung.com,Antonietta,F
+
 
 
 // ==== Challenge 2: Reading Object Data ==== 
@@ -68,30 +67,32 @@ const antonietta = {
 
 // Mitzi's name
 
-// console.log(mitzi.name);
+console.log(mitzi.name);
 
 // Kennan's ID
 
-// console.log(kennan.name);
+console.log(kennan.name);
 
 // Keven's email
 
-// console.log(keven.email);
+console.log(keven.email);
 
 // Gannie's name
 
-// console.log(gannie.name);
+console.log(gannie.name);
 
 // Antonietta's Gender
 
-// console.log(antonietta.gender);
+console.log(antonietta.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
-// console.log(kennan.speak());
+kennan.speak = `My name is ${kennan.name}`;
+console.log(kennan.speak);
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
-//console.log(antonietta.multiplyNums(3,4));
+antonietta.multiplyNums = (num1, num2) => num1 * num2;
+console.log(antonietta.multiplyNums(3, 4));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
@@ -128,7 +129,7 @@ const parent = {
 
 // Log the parent object's name
 
-// console.log(parent.name);
+console.log(parent.name);
 
 // Log the child's age
 
@@ -136,7 +137,7 @@ const parent = {
 
 // Log the name and age of the grandchild
 
-// console.log(parent.child.grandchild.name, parent.child.grandchild.age);
+console.log(parent.child.grandchild.name, parent.child.grandchild.age);
 
 // Have the parent speak
 
@@ -144,8 +145,8 @@ const parent = {
 
 // Have the child speak
 
-// console.log(parent.child.speak());
+console.log(parent.child.speak());
 
 // Have the grandchild speak
 
-// console.log(parent.child.grandchild.speak());
+console.log(parent.child.grandchild.speak());
